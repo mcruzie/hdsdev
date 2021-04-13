@@ -95,7 +95,7 @@ public class App {
             System.out.print("Gender: ");
             String gender = reader.nextLine().toUpperCase();
 
-            //if (gender.toUpperCase()=="F" || gender.toUpperCase() == "M")
+            if (gender.toUpperCase()=="F" || gender.toUpperCase() == "M")
                 newEmp.setGender(gender);
     
             reader.close();
